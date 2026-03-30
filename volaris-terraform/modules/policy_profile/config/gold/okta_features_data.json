@@ -1,0 +1,26 @@
+{
+    "Access Requests - Unified Requester Experience": {
+        "status": "ENABLE"
+    },
+    "Block synced passkeys for FIDO2 (WebAuthn) Authenticators": {
+        "status": "ENABLE"
+    },
+    "Force rematch imported users to Okta users": {
+        "status": "ENABLE"
+    },
+    "Workday writeback enhancement": {
+        "status": "ENABLE"
+    },
+    "Cron based User Import scheduling": {
+        "status": "ENABLE"
+    },
+    "End User Settings version 2.0": {
+        "status": "ENABLE"
+    },
+    "ITP Session Protection Controls": {
+        "status": "ENABLE"
+    },
+    "Same-Device Enrollment for Okta FastPass": {
+        "status": "ENABLE"
+    }
+}

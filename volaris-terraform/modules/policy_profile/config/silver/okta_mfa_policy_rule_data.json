@@ -1,0 +1,23 @@
+{
+    "admins_default_rule": {
+        "policy_id": "admins",
+        "name": "Admins Default Rule",
+        "status": "ACTIVE",
+        "priority": 1,
+        "enroll": "LOGIN"
+    },
+    "exception_users_default_rule": {
+        "policy_id": "exception_users",
+        "name": "Exception Users Default Rule",
+        "status": "ACTIVE",
+        "priority": 1,
+        "enroll": "LOGIN"
+    },
+    "users_default_rule": {
+        "policy_id": "allusers",
+        "name": "All Users Default Rule",
+        "status": "ACTIVE",
+        "priority": 1,
+        "enroll": "LOGIN"
+    }
+}

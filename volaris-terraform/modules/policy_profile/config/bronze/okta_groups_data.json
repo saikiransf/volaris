@@ -1,0 +1,42 @@
+{
+    "vbu_admins": {
+        "name": "Admins",
+        "description": "VBU Admins Group",
+        "vbuid_prefixed": true
+    },
+    "vbu_allusers": {
+        "name": "AllUsers",
+        "description": "All Users Group",
+        "vbuid_prefixed": true
+    },
+    "vbu_nonhuman": {
+        "name": "NonHuman",
+        "description": "Non-Human Accounts Group",
+        "vbuid_prefixed": true
+    },
+    "breakglass": {
+        "name": "Breakglass Users",
+        "description": "Breakglass Users Group",
+        "vbuid_prefixed": false
+    },
+    "exception_users": {
+        "name": "Exception Users",
+        "description": "Exception Users Group",
+        "vbuid_prefixed": false
+    },
+    "okta_superadmins": {
+        "name": "Super Admins",
+        "description": "Okta Super Admins",
+        "vbuid_prefixed": false
+    },
+    "okta_helpdesk": {
+        "name": "Help Desk",
+        "description": "Okta Help Desk",
+        "vbuid_prefixed": false
+    },
+    "okta_readonly": {
+        "name": "Read-Only",
+        "description": "Okta Read-Only",
+        "vbuid_prefixed": false
+    }
+}

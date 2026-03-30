@@ -1,0 +1,10 @@
+{
+    "volaris_org2org_admin_role": {
+        "label": "Volaris Group Org2Org Admin",
+        "description": "Volaris Group Org2Org Admin",
+        "permissions": [
+            "okta.users.manage",
+            "okta.groups.manage"
+        ]
+    }
+}

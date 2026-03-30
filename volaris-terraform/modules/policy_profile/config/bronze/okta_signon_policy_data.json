@@ -1,0 +1,16 @@
+{
+    "admins": {
+        "name": "Admins Global Session",
+        "description": "Admins Global Session",
+        "priority": 1,
+        "status": "ACTIVE",
+        "groups_included": ["vbu_admins", "breakglass"]
+    },
+    "allusers": {
+        "name": "All Users Global Session",
+        "description": "All Users Global Session",
+        "priority": 2,
+        "status": "ACTIVE",
+        "groups_included": ["vbu_allusers", "exception_users"]
+    }
+}

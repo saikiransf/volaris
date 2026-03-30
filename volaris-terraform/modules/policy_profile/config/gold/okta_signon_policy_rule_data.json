@@ -1,0 +1,22 @@
+{
+    "admins_default_rule": {
+        "name": "Admins Default Rule",
+        "policy_id": "admins",
+        "priority": 1,
+        "status": "ACTIVE",
+        "access": "ALLOW",
+        "session_idle": "30",
+        "session_lifetime": "240",
+        "network_connection": "ANYWHERE"
+    },
+    "users_default_rule": {
+        "name": "All Users Default Rule",
+        "policy_id": "allusers",
+        "priority": 1,
+        "status": "ACTIVE",
+        "access": "ALLOW",
+        "session_idle": "60",
+        "session_lifetime": "720",
+        "network_connection": "ANYWHERE"
+    }
+}

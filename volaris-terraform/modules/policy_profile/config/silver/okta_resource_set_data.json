@@ -1,0 +1,11 @@
+{
+    "volaris_org2org_admin_role": {
+        "label": "Volaris Group Org2Org Admin",
+        "description": "Volaris Group Org2Org Admin",
+        "type": "basic_resources",
+        "resources": [
+            "%s/api/v1/users",
+            "%s/api/v1/groups"
+        ]
+    }
+}

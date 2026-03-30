@@ -1,0 +1,182 @@
+{
+    "customerManagerEmail": {
+        "title": "Manager email",
+        "description": "Manager email",
+        "type": "string"
+    },
+    "customManagerName": {
+        "title": "Manager name",
+        "description": "Manager name",
+        "type": "string"
+    },
+    "customCountryName": {
+        "title": "Country name",
+        "description": "Country name",
+        "type": "string"
+    },
+    "customHireDate": {
+        "title": "Hire date",
+        "description": "Hire date",
+        "type": "string"
+    },
+    "customHireDateOriginal": {
+        "title": "Hire date original",
+        "description": "Hire date original",
+        "type": "string"
+    },
+    "customInstanceName": {
+        "title": "Instance name",
+        "description": "Instance name",
+        "type": "string"
+    },
+    "customITLocation": {
+        "title": "IT location",
+        "description": "IT location",
+        "type": "string"
+    },
+    "customITToolsAdmin": {
+        "title": "IT tools admin",
+        "description": "IT tools admin",
+        "type": "string"
+    },
+    "customJobFamily": {
+        "title": "Job family",
+        "description": "Job family",
+        "type": "string"
+    },
+    "customjobProfile": {
+        "title": "Job profile",
+        "description": "Job profile",
+        "type": "string"
+    },
+    "customLastWorkingDay": {
+        "title": "Last working day",
+        "description": "Last working day",
+        "type": "string"
+    },
+    "customLegalEntity": {
+        "title": "Custom legal entity",
+        "description": "Custom legal entity",
+        "type": "string"
+    },
+    "customLocation": {
+        "title": "Location",
+        "description": "Location",
+        "type": "string"
+    },
+    "customManagementLevel": {
+        "title": "Management level",
+        "description": "Management level",
+        "type": "string"
+    },
+    "customPortfolio": {
+        "title": "Portfolio",
+        "description": "Portfolio",
+        "type": "string"
+    },
+    "customRegion": {
+        "title": "Region",
+        "description": "Region",
+        "type": "string"
+    },
+    "customRemoteWorker": {
+        "title": "Remote worker",
+        "description": "Remote worker",
+        "type": "string"
+    },
+    "customTerminationDate": {
+        "title": "Termination date",
+        "description": "Termination date",
+        "type": "string"
+    },
+    "customTerminationType": {
+        "title": "Termination type",
+        "description": "Termination type",
+        "type": "string"
+    },
+    "customUniversalID": {
+        "title": "Universal id",
+        "description": "Universal id",
+        "type": "string"
+    },
+    "customVBUID": {
+        "title": "VBU ID",
+        "description": "VBU ID",
+        "type": "string"
+    },
+    "customVBUName": {
+        "title": "Vbu name",
+        "description": "Vbu name",
+        "type": "string"
+    },
+    "customVBUPath": {
+        "title": "VBU Path",
+        "description": "VBU Path",
+        "type": "string"
+    },
+    "customHireReason": {
+        "title": "Hire reason",
+        "description": "Hire reason",
+        "type": "string"
+    },
+    "customLifecycleState": {
+        "title": "Lifecycle state",
+        "description": "Lifecycle state",
+        "type": "string"
+    },
+    "customVGNETUserLinked": {
+        "title": "VGNET User Linked",
+        "description": "VGNET User Linked",
+        "type": "string"
+    },
+    "customPasswordLastSet": {
+        "title": "Password Last Set",
+        "description": "Password Last Set",
+        "type": "string"
+    },
+    "customPreferredFirstName": {
+        "title": "Preferred First Name",
+        "description": "Preferred First Name",
+        "type": "string"
+    },
+    "customPreferredLastName": {
+        "title": "Preferred Last Name",
+        "description": "Preferred Last Name",
+        "type": "string"
+    },
+    "customEmailDomain": {
+        "title": "Email Domain",
+        "description": "Email Domain",
+        "type": "string"
+    },
+    "customUniqueEmailGenerated": {
+        "title": "Unique Email Generated",
+        "description": "Unique Email Generated",
+        "type": "boolean"
+    },
+    "userPrincipleName": {
+        "title": "UserPrincipleName",
+        "description": "UserPrincipleName",
+        "type": "string"
+    },
+    "proxyAddress": {
+        "title": "ProxyAddress",
+        "description": "ProxyAddress",
+        "type": "array"
+    },
+    "samAccountName": {
+        "title": "SAM Account Name",
+        "description": "SAM Account Name",
+        "type": "string"
+    },
+    "mailNickname": {
+        "title": "Mail Nickname",
+        "description": "Mail Nickname",
+        "type": "string"
+    },
+    "spokeImmediateTermination": {
+        "title": "Spoke Immediate Termination",
+        "description": "Spoke Immediate Termination",
+        "type": "boolean"
+    }
+}

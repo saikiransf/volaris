@@ -1,0 +1,83 @@
+{
+    "admins": {
+        "name": "Volaris Administrators",
+        "priority": 1,
+        "policy_id": "standard",
+        "groups_included": [
+            "vbu_admins"
+        ],
+        "device_is_registered": true,
+        "device_is_managed": true,
+        "platform_include": []
+    },
+    "breakglass": {
+        "name": "Volaris Breakglass",
+        "priority": 2,
+        "policy_id": "standard",
+        "groups_included": [
+            "breakglass"
+        ],
+        "device_is_registered": null,
+        "device_is_managed": null,
+        "platform_include": []
+    },
+    "exception_users": {
+        "name": "Volaris Exception Users",
+        "priority": 3,
+        "policy_id": "standard",
+        "groups_included": [
+            "exception_users"
+        ],
+        "device_is_registered": null,
+        "device_is_managed": null,
+        "platform_include": []
+    },
+    "users_managed": {
+        "name": "Volaris Users - Managed",
+        "priority": 4,
+        "policy_id": "standard",
+        "groups_included": [
+            "vbu_allusers"
+        ],
+        "device_is_registered": true,
+        "device_is_managed": true,
+        "platform_include": [
+            {
+                "type": "DESKTOP",
+                "os_type": "WINDOWS"
+            },
+            {
+                "type": "DESKTOP",
+                "os_type": "MACOS"
+            }
+        ]
+    },
+    "users_registered": {
+        "name": "Volaris Users - Registered",
+        "priority": 5,
+        "policy_id": "standard",
+        "groups_included": [
+            "vbu_allusers"
+        ],
+        "device_is_registered": true,
+        "device_is_managed": false,
+        "platform_include": [
+            {
+                "type": "DESKTOP",
+                "os_type": "WINDOWS"
+            },
+            {
+                "type": "DESKTOP",
+                "os_type": "MACOS"
+            },
+            {
+                "type": "MOBILE",
+                "os_type": "IOS"
+            },
+            {
+                "type": "MOBILE",
+                "os_type": "ANDROID"
+            }
+        ]
+    }
+}

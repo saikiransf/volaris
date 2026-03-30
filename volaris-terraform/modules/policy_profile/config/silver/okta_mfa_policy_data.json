@@ -1,0 +1,36 @@
+{
+    "admins": {
+        "name": "Admins MFA Enrollment",
+        "status": "ACTIVE",
+        "priority": 1,
+        "description": "Admins MFA Enrollment",
+        "groups_included": ["vbu_admins"],
+        "authenticators": {
+            "okta_password": "REQUIRED",
+            "okta_verify": "REQUIRED",
+            "webauthn": "OPTIONAL"
+        }
+    },
+    "allusers": {
+        "name": "All Users MFA Enrollment",
+        "status": "ACTIVE",
+        "priority": 2,
+        "description": "All Users MFA Enrollment",
+        "groups_included": ["vbu_allusers"],
+        "authenticators": {
+            "okta_password": "REQUIRED",
+            "okta_verify": "OPTIONAL"
+        }
+    },
+    "exception_users": {
+        "name": "Exception Users MFA Enrollment",
+        "status": "ACTIVE",
+        "priority": 3,
+        "description": "Exception Users MFA Enrollment",
+        "groups_included": ["exception_users"],
+        "authenticators": {
+            "okta_password": "REQUIRED",
+            "okta_verify": "OPTIONAL"
+        }
+    }
+}

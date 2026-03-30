@@ -1,0 +1,32 @@
+{
+    "google_otp": {
+        "name": "Google Authenticator",
+        "key": "google_otp",
+        "status": "ACTIVE"
+    },
+    "okta_verify": {
+        "name": "Okta Verify",
+        "key": "okta_verify",
+        "status": "ACTIVE"
+    },
+    "okta_password": {
+        "name": "Password",
+        "key": "okta_password",
+        "status": "ACTIVE"
+    },
+    "okta_email": {
+        "name": "Email",
+        "key": "okta_email",
+        "status": "ACTIVE"
+    },
+    "webauthn": {
+        "name": "FIDO2 (WebAuthn)",
+        "key": "webauthn",
+        "status": "ACTIVE"
+    },
+    "tac": {
+        "name": "Temporary Access Code",
+        "key": "tac",
+        "status": "ACTIVE"
+    }
+}
